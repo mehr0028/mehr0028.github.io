@@ -80,13 +80,7 @@
       <workItem from="1612748612243" duration="1806000" />
       <workItem from="1612750452737" duration="1799000" />
       <workItem from="1612752292278" duration="1791000" />
-      <workItem from="1612754140838" duration="244000" />
-      <workItem from="1612790859057" duration="78000" />
-      <workItem from="1612792964802" duration="1813000" />
-      <workItem from="1612794796674" duration="1791000" />
-      <workItem from="1612796609473" duration="2012000" />
-      <workItem from="1612798646853" duration="599000" />
-      <workItem from="1612799323083" duration="67000" />
+      <workItem from="1612754140838" duration="4000" />
     </task>
     <servers />
   </component>
@@ -94,9 +88,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612790939651">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1612743015777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612790939651" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612743015777" />
   </component>
 </project>

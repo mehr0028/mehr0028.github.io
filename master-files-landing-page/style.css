@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+/*add font*/
+
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat-Medium.ttf");
+}
+
+body {
+    background: #f7f7ff;
+    font-family: Montserrat;
+}
+
+
+/*Home page size settings*/
+
+.home {
+    min-height: 300vw;
+    padding: 5px 50px 0 50px;
+}
+
+
+/*Site logo settings*/
+
+.logo {
+    height: 100px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+
+/*This section consists of three sections: form, text and page image,
+ in which the page image is set as a background*/
+
+.content {
+    height: 190vw;
+    display: grid;
+    grid-row-gap: 55vw;
+    width: 100%;
+    background-image: url("images/bg-image/scooter.svg");
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+    justify-content: space-between;
+}
+
+
+/*Site text*/
+
+.title-content {
+    font-size: 10vw;
+    width: 52vw;
+    font-weight: bold;
+}
+
+.text-content {
+    font-size: 5vw;
+    width: auto;
+    margin-top: 15px;
+}
+
+
+/*Site apply form*/
+
+.apply {
+    display: block;
+    justify-content: end;
+    /*margin-right: 20px;*/
+    border-radius: 15px;
+}
+
+.apply-content {
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    padding: 0;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.apply-text-md {
+    display: none;
+}
+
+.already-apply {
+    text-align: left;
+    font-size: 3.2vw;
+}
+
+.link-already-apply {
+    color: #ff8480;
+    text-decoration: none;
+}
+
+.apply-content form input {
+    width: 85%;
+    background-color: #F2F2F2;
+    height: 25px;
+    padding: 7px 15px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    outline: none;
+}
+
+.terms {
+    font-size: 12px;
+}
+
+.check-term {
+    zoom: 1;
+}
+
+.submit-form {
+    font-size: initial;
+    height: auto;
+    width: 95%;
+    background: #57eeab;
+    margin: 15px auto 10px auto;
+    border-radius: 10px;
+    padding: 7px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*footer page*/
+
+footer {
+    height: max-content;
+    background-color: #fffd8c;
+}
+
+.content-footer {
+    display: block;
+    padding: 20px 2px;
+    justify-content: center;
+    margin: 10px 70px 0 70px;
+    align-self: center;
+    height: 100%;
+    grid-template-rows: 100%;
+    grid-template-columns: repeat(2, auto);
+}
+
+.content-footer-left {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.footer-text-header {
+    font-weight: bold;
+    font-size: 15px
+}
+
+.footer-text-calculate-drive {
+    font-size: 12px;
+    margin: 5px auto;
+}
+
+.hours {
+    width: 50px;
+    padding: 10px 2px;
+}
+
+.calculate-drive input {
+    padding: 10px 15px;
+    height: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.calculate {
+    padding: 5px 25vw;
+    margin: 10px auto;
+    background-color: #ff8480;
+    color: white;
+    display: inline-flex;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.city {
+    width: 44vw;
+}
+
+
+/*Social media section*/
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social img {
+    width: 7vw;
+}
+
+.social a {
+    margin: auto 5vw;
+    text-decoration: none;
+}
+
+
+/* Media query fir tablet */
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .home {
+        min-height: 220vw;
+    }
+    .logo {
+        height: auto;
+    }
+    .logo img {
+        width: 20vw;
+    }
+    .content {
+        display: grid;
+        align-content: space-between;
+        background-position: center;
+        background-size: 80vw;
+        height: 155vw;
+        grid-row-gap: 65vw;
+    }
+    .title-content {
+        font-size: 8vh;
+        width: 75vw;
+    }
+    .text-content {
+        font-size: 3.2vw;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .apply {
+        display: grid;
+        justify-content: center;
+        margin: auto;
+    }
+    .apply-title {
+        font-size: 35px;
+    }
+    .apply-content {
+        width: 75vw;
+        height: auto;
+    }
+    .already-apply {
+        font-size: 20px;
+        text-align: center;
+    }
+    .apply-content p {
+        font-size: 30px;
+    }
+    .apply-content form input {
+        height: 5vw;
+        font-size: 25px;
+        margin: 10px auto;
+        width: 95%;
+    }
+    .submit-form {
+        font-size: 30px;
+        height: 5vw;
+        display: grid;
+        align-content: center;
+    }
+    .check-term {
+        zoom: 2;
+        margin-left: 7px;
+        margin-right: 5px;
+    }
+    footer {
+        padding: 20px;
+        height: max-content;
+    }
+    .content-footer {
+        display: block;
+        text-align: center;
+    }
+    .footer-text-header,
+    .terms {
+        font-size: 22px;
+    }
+    .content-footer-left {
+        display: inline-flex;
+        margin-left: 15px;
+        text-align: left;
+    }
+    .footer-text-calculate-drive,
+    .calculate-drive input {
+        font-size: 22px;
+    }
+    .calculate-drive input {
+        margin-right: 10px;
+        height: 18px;
+    }
+    .calculate {
+        padding: 10px 3vw;
+    }
+    .apply-text-md {
+        display: none;
+    }
+    .city {
+        width: 35vw;
+    }
+    .social {
+        display: block;
+        margin-top: 10px;
+    }
+    .social a {
+        margin: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home {
+        padding: 5px 70px 0 70px;
+        min-height: 100vh;
+    }
+    .logo {
+        height: 120px;
+    }
+    .content {
+        display: flex;
+        height: auto;
+    }
+    .title-content {
+        width: 400px;
+        font-size: 60px;
+    }
+    .text-content {
+        width: 400px;
+        font-size: 18px;
+    }
+    .apply {
+        display: inline-flex;
+    }
+    .apply-text-md {
+        display: inline;
+    }
+    .apply-content {
+        width: 320px;
+        height: 90%;
+        border-radius: 15px;
+    }
+    .apply form input {
+        width: 95%;
+    }
+    .submit-form {
+        height: 25px;
+        margin: 10px auto;
+        font-size: 20px;
+    }
+    .already-apply {
+        font-size: 12px;
+        text-align: center;
+    }
+    footer {
+        height: 130px;
+    }
+    .content-footer {
+        margin: 10px 70px;
+        display: grid;
+        justify-content: space-between;
+        grid-template-rows: 100%;
+        grid-template-columns: repeat(2, auto);
+        padding: 0;
+    }
+    .calculate {
+        padding: 5px;
+    }
+    .calculate-drive input {
+        padding: 10px;
+    }
+    .hours {
+        width: 70px;
+    }
+    .city {
+        width: auto;
+    }
+    .social {
+        align-self: center;
+    }
+    .social img {
+        width: fit-content;
+    }
+    .social a {
+        margin: 5px;
+    }
+}
