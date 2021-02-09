@@ -28,6 +28,9 @@ body {
 
 /*Site logo settings*/
 
+
+/* Adjusting logo size,setting to the top leftof the site. */
+
 .logo {
     height: 100px;
 }
@@ -68,6 +71,9 @@ body {
 
 
 /*Site apply form*/
+
+
+/* designing the box for the apply now form,and applying drop shadow to it */
 
 .apply {
     display: block;
