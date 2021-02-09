@@ -330,7 +330,10 @@ footer {
 }
 
 
-/* Media query for desktop */
+/* Use media query for desktop */
+
+
+/* when the screen size is more than 1200px, */
 
 @media (min-width: 1200px) {
     .home {
