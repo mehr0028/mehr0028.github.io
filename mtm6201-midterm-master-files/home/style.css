@@ -136,6 +136,9 @@ table {
 
 /* Style for mobiles: */
 
+
+/* use @media to apply the following code to the rest of the code */
+
 @media screen and (max-width: 320px) {
     .content.one,
     .content.two .section-2,
@@ -475,6 +478,12 @@ footer .back-to-top a img {
 
 /* For tablets: */
 
+
+/* use @media to apply the following code to the rest of the code */
+
+
+/* when the screen size is above 600px wide, set all of items that include main braces */
+
 @media screen and (min-width: 600px) {
     section {
         max-width: 768px;
@@ -625,6 +634,9 @@ footer .back-to-top a img {
 
 
 /* For desktop: */
+
+
+/* use @media to apply the following code to the rest of the code */
 
 @media screen and (min-width: 1025px) {
     section {
