@@ -241,6 +241,9 @@ p {
     overflow: hidden;
 }
 
+
+/* When you run the home page the image get bigger and fade to attract more.  */
+
 .content.one .section-2 img {
     animation-name: fade-animation;
     animation-duration: 2s;
@@ -296,6 +299,9 @@ p {
     padding: 20px 30px;
 }
 
+
+/*  When you reach home the second image comes from left to the right to pay attention more */
+
 .content.two img {
     position: relative;
     animation-name: image-animation;
@@ -311,6 +317,9 @@ p {
         left: 0;
     }
 }
+
+
+/*  When you reach home the third image comes from right to the left to have different act in page */
 
 .content.four img {
     position: relative;
