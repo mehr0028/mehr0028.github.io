@@ -514,6 +514,7 @@ footer .back-to-top a img {
     .img.one {
         height: 330px;
     }
+    /* Use flex insdie the home grid to organize */
     .facilities {
         display: flex;
         margin-top: 30px;
