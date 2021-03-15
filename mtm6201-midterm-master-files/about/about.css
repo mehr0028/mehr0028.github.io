@@ -396,6 +396,9 @@ footer .back-to-top a img {
 
 /* For tablets: */
 
+
+/* use @media to apply the following code to the rest of the code */
+
 @media screen and (min-width: 600px) {
     section {
         max-width: 768px;
