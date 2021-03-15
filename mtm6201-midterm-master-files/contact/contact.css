@@ -379,6 +379,9 @@ footer .back-to-top a img {
 
 /* For tablets: */
 
+
+/* when the screen size is betweeen 600pc and 780px, set all of items that include main braces */
+
 @media screen and (min-width: 600px) {
     section {
         max-width: 768px;

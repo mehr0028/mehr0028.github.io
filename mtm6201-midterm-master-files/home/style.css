@@ -482,7 +482,7 @@ footer .back-to-top a img {
 /* use @media to apply the following code to the rest of the code */
 
 
-/* when the screen size is above 600px wide, set all of items that include main braces */
+/* when the screen size is betweeen 600pc and 780px, set all of items that include main braces */
 
 @media screen and (min-width: 600px) {
     section {
