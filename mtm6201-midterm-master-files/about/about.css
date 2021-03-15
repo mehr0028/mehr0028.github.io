@@ -1,17 +1,86 @@
 /* Web CSS Reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -21,9 +90,20 @@ time, mark, audio, video {
     box-sizing: border-box;
 }
 
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
@@ -32,16 +112,20 @@ body {
     color: #3c3b3a;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
     quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: none;
 }
 
@@ -50,21 +134,20 @@ table {
     border-spacing: 0;
 }
 
+
 /* Style for mobiles: */
+
 @media screen and (max-width: 320px) {
     .content {
         padding-right: 10px !important;
         padding-left: 10px !important;
     }
-
     .banner.three span {
         font-size: 14px !important;
     }
-
     .content.seven .one {
         width: 100%;
     }
-
     .background {
         top: -60px !important;
     }
@@ -151,7 +234,9 @@ p {
     margin-top: 20px;
 }
 
-.content.two, .content.four, .content.six {
+.content.two,
+.content.four,
+.content.six {
     background-color: #E2E2E2;
 }
 
@@ -201,7 +286,6 @@ p {
 .banner img {
     width: 100%;
 }
-
 
 .banner.three {
     box-sizing: border-box;
@@ -309,321 +393,274 @@ footer .back-to-top a img {
     margin: auto;
 }
 
+
 /* For tablets: */
+
 @media screen and (min-width: 600px) {
     section {
         max-width: 768px;
         margin: auto;
     }
-
     header {
         padding: 0 80px;
         position: fixed;
     }
-
     ul {
         float: right;
     }
-
     li {
         display: inline-block;
     }
-
     .logo {
         float: left;
     }
-
     .logo img {
         width: 60px;
         height: 50px;
     }
-
     h1 {
         font-size: 60px;
         line-height: 70px;
     }
-
     h2 {
         font-size: 39px;
         margin: 0;
     }
-
     h3 {
         font-size: 34px;
         color: #26a682;
         margin: 12px 0;
     }
-
     p {
         font-size: 19px;
         line-height: 40px;
     }
-
     .content.two p {
         font-size: 23px;
         line-height: 38px;
         margin-top: 18px;
     }
-
     .content {
         padding: 60px;
     }
-
     .content.one {
         padding-top: 150px;
     }
-
     .content.one span {
         display: none;
     }
-
     .content.two .section.two {
         margin: 20px 0;
     }
-
     .banner .background {
         top: -200px;
     }
-
     .banner.three {
         box-sizing: border-box;
         height: 100px;
         padding: 5px;
     }
-
     .banner.three button {
         height: 54px;
         font-size: 24px;
         margin-left: 50px;
     }
-
     .banner.three span {
         font-size: 26px;
     }
-
-    .content.three, .content.four,
-    .content.five, .content.six {
+    .content.three,
+    .content.four,
+    .content.five,
+    .content.six {
         flex-direction: row;
     }
-
-    .content.three .section-1, .content.four .section-2,
-    .content.five .section-1, .content.six .section-2 {
+    .content.three .section-1,
+    .content.four .section-2,
+    .content.five .section-1,
+    .content.six .section-2 {
         width: 40%;
     }
-
-    .content.three .section-2, .content.four .section-1,
-    .content.five .section-2, .content.six .section-1 {
+    .content.three .section-2,
+    .content.four .section-1,
+    .content.five .section-2,
+    .content.six .section-1 {
         width: 60%;
     }
-
-    .content.three .section-2, .content.five .section-2 {
+    .content.three .section-2,
+    .content.five .section-2 {
         padding-left: 25px;
     }
-
     .img {
         overflow: hidden;
         height: 470px;
         width: 100%;
     }
-
     .large-device {
         display: inline;
         height: 100%;
         position: relative;
         left: -200px;
     }
-
     .content.seven img {
         height: 200px;
         max-width: 300px;
     }
-
     .content.seven .one {
         max-width: 400px;
         height: 120px;
     }
-
     footer {
         padding: 50px 0;
     }
-
     footer .back-to-top img {
         width: 30px !important;
         height: 30px !important;
     }
-
     footer .back-to-top a {
         right: 22px;
         font-size: 16px;
     }
-
     footer label {
-        font-size: 30px;
+        font-size: 19px;
     }
-
     .images img {
         margin: 6px;
     }
-
 }
 
+
 /* For desktop: */
+
 @media screen and (min-width: 1025px) {
     section {
         max-width: 1518px;
         margin: auto;
     }
-
     .content {
         padding: 90px 125px;
     }
-
     h1 {
         font-size: 52px;
     }
-
     h2 {
         font-size: 32px;
     }
-
     h3 {
         font-size: 28px;
         margin: 12px 0;
     }
-
     .content.one p {
         font-size: 19px;
     }
-
     p {
         font-size: 14px;
         line-height: 30px;
     }
-
     .content.one {
         padding-bottom: 20px;
     }
-
     .content.one span {
         display: inline;
     }
-
     .content.one img {
         width: 650px;
         height: 500px;
         position: relative;
         top: -60px;
     }
-
     .content.two {
         padding: 150px 125px;
     }
-
     .content.two .section {
         width: 30%;
     }
-
     .content.two .section.two {
         margin: 0 4%;
     }
-
     .content.two p {
         font-size: 14px;
         line-height: 27px;
     }
-
     .content.two h2 {
         font-size: 30px;
     }
-
-    .content.one, .content.two {
+    .content.one,
+    .content.two {
         flex-direction: row;
     }
-
     .banner .background {
         top: -480px;
     }
-
     .banner.three {
         height: 80px;
         padding: 0 !important;
     }
-
     .banner.three button {
         width: 180px;
         height: 37px;
         font-size: 22px;
         margin-left: 10px;
     }
-
     .banner.three span {
         font-size: 27px;
     }
-
-    .content.three .section-1, .content.four .section-2,
-    .content.five .section-1, .content.six .section-2 {
+    .content.three .section-1,
+    .content.four .section-2,
+    .content.five .section-1,
+    .content.six .section-2 {
         width: 50%;
     }
-
-    .content.three .section-2, .content.four .section-1,
-    .content.five .section-2, .content.six .section-1 {
+    .content.three .section-2,
+    .content.four .section-1,
+    .content.five .section-2,
+    .content.six .section-1 {
         width: 50%;
     }
-
-    .content.four .section-1, .content.six .section-1 {
+    .content.four .section-1,
+    .content.six .section-1 {
         padding-right: 23px;
     }
-
-    .content.three .section-2, .content.five .section-2 {
+    .content.three .section-2,
+    .content.five .section-2 {
         padding-left: 23px;
     }
-
     .img {
         height: 270px;
         width: 100%;
     }
-
     .large-device {
         width: 120%;
         height: 130%;
         margin: 0;
         left: -40px;
     }
-
     .content.seven img {
         display: inline;
         height: 160px;
         max-width: 260px;
         margin: 20px 35px;
     }
-
     .content.seven .one {
         max-width: 400px;
         height: 120px;
         margin-left: 0;
     }
-
     .content.seven .four {
         margin-right: 0;
     }
-
     footer {
         padding: 20px;
     }
-
     footer label {
-        font-size: 25px;
+        font-size: 19px;
     }
-
     footer .back-to-top {
         font-size: 14px;
     }
-
     footer .back-to-top img {
         width: 40px;
         height: 40px;
     }
-
     footer .back-to-top a {
         right: 22px;
     }
