@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\new project\\home"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "mehr0028.github.io"
+    }
+}
