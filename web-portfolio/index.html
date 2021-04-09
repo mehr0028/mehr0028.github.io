@@ -11,5 +11,330 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 
-    <title>Web Portolio</title>
+    <title>Web Portfolio</title>
 </head>
+
+<body>
+    <!-- The nav class is used to create the navigation component to provide a strong foundation of navigation components.-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> ArtiArtsymm
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+        </div>
+    </nav>
+    <img class="img-fluid w-100" src="images/1.jpg" alt="banner">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> ArtiArtsymm
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="container">
+        <div class="row">
+            <div class="col-12"> </div>
+        </div>
+        <div class="container">
+
+            <div class="jumbotron text-center bg-secondary">
+                <h1>ArtiArtsymm</h1>
+                <p class="h3"> BOOTSTRAP GET STARTED !</p>
+                <p class="display-3 text-sm-center text-uppercase fst-italic text-white"> Welcome to ArtiArtsymm</p>
+            </div>
+            <div class="alert alert-info">Bootstrap Tutorial</div>
+            <button class="btn btn-outline-secondary mb-5">Learn More</button>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="mt-2">About Bootstrap</h1>
+                    <p class="text-lg-nowrap">Bootstrap is a free and open-source CSS platform for front-end web creation that is sensitive and mobile-first. It includes design templates for typography, shapes, buttons, navigation, and other interface elements that are based on
+                        CSS and (optionally) JavaScript. </p>
+
+                </div>
+                <!-- A dropdown can be added to a navbar by styling the parent connection and the dropdown's display with a collection of classes and elements. -->
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownmenubutton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Examples 
+                            </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownmenubutton1">
+                        <li><a class="dropdown-item" href="#buttons">img-thumbnail</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <h2> Img-thumbnail Template</h2>
+                        <img class="img-thumbnail img-fluid" src="https://via.placeholder.com/250" alt="placeholder">
+                    </div>
+                    <div class="col-4">
+                        <h2>Img-thumbnail Template</h2>
+                        <img class="img-thumbnail img-fluid" src="https://via.placeholder.com/250" alt="placeholder">
+
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4 col-lg-8">
+                        <h2> Bootstrap Icon</h2>
+                        <p>For the first time, Bootstrap has its own open source SVG icon library, which is specifically designed to work with our components and documentation. Bootstrap Icons are best used with Bootstrap elements, but they can be used in
+                            any project. They're SVGs, which means they'll scale quickly and easily, can be used in a variety of ways, and can be styled with CSS.
+                        </p>
+                    </div>
+                    <div class="col-md-8 col-lg-4">
+                        <h2>Official Theme</h2>
+                        <p>Premium Bootstrap themes from the official Bootstrap Themes marketplace will take your project to the next level. Themes are built on top of Bootstrap as standalone frameworks, complete with new components and plugins, documentation,
+                            and powerful build tools.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- By using list groups, we can display a series of content -->
+
+            <div class="list-group list-group-horizontal-lg mb-3">
+                <a href="#theme-colors" class="list-group-item list-group-item-action list-group-item-success">Theme Colors</a>
+                <a href="#headings" class="list-group-item list-group-item-action list-group-item-secondary">Headings</a>
+                <a href="#columns" class="list-group-item list-group-item-action list-group-item-primary">Columns</a>
+            </div>
+            <!-- cards -->
+            <!-- Cards are created with as little markup and styling as possible while still allowing for a great deal of control and customization. -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/theme-colors.jpg" class="card-img-theme-colors" id="theme-colors" alt="theme colors in bootstrap">
+                        <div class="card-body">
+                            <h2 class="card-title">Available Theme Colors</h2>
+                            <p class="card-text">Bootstrap has a rich colour scheme that helps us theme our styles and components. For any project, this allows for more extensive customization and extension.</p>
+                            <div class="col-md-6">
+                                <a class="btn btn-outline-secondary mb-5" href="#" role="button">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/headings.JPG" class="card-img-headings" id="headings" alt="headings in bootstrap">
+                        <div class="card-body">
+                            <h2 class="card-title">Different Headings</h2>
+                            <p class="card-text text-justify">Bootstrap describes the basic display, typography, and connection styles for the entire web.Traditional heading elements are best used in the main content of your website. Consider using a show heading—a wider, slightly more
+                                opinionated heading style—when you need a heading to stand out.</p>
+                            <div class="col-md-6">
+                                <a class="btn btn-outline-secondary mb-5" href="#" role="button">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/columns.JPG" class="card-img-columns" id="columns" alt="columns in bootstrap">
+                        <div class="card-body">
+                            <h2 class="card-title">Great Columns</h2>
+                            <p class="card-text">With our flexbox grid method, you can change columns with a variety of options for spacing, ordering, and offsetting. Also, learn how to handle the widths of non-grid components with column groups. Columns are based on the
+                                flexbox architecture of the grid.All material is put in columns when designing grid templates. Predefined classes in Bootstrap make it easy to build quick, sensitive templates.</p>
+                            <div class="col-md-6">
+                                <a class="btn btn-outline-secondary mb-5" href="#" role="button">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- By using list groups, we can display a series of content,I display a series by choosing Three different content of Components  -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="mt-5">Components</h1>
+                        <p class="text-lg-nowrap">Bootstrap provides components that are useful, simple, and effective. The majority of Bootstrap's components use a base-modifier nomenclature.</p>
+                    </div>
+                </div>
+                <!-- data-toggle="dropdown" to activate the dropdown -->
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownmenubutton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Examples
+                            </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownmenubutton2">
+                        <li><a class="dropdown-item" href="#buttons">Buttons</a></li>
+                        <li><a class="dropdown-item" href="#color-Schemes">Color Schemes</a></li>
+                        <li><a class="dropdown-item" href="#dropdowns">Dropdowns</a></li>
+                    </ul>
+                </div>
+                <!-- By using list groups, we can display a series of content,I display a series by choosing Three different content of Components  -->
+                <div class="list-group list-group-horizontal-lg mb-3">
+                    <a href="#buttons" class="list-group-item list-group-item-action list-group-item-success">Buttons</a>
+                    <a href="#color-schemes" class="list-group-item list-group-item-action list-group-item-secondary">Color Schemes</a>
+                    <a href="#dropdowns" class="list-group-item list-group-item-action list-group-item-primary">Dropdowns</a>
+                </div>
+                <!-- cards -->
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/buttons.jpg" class="card-img buttons" id="buttons" alt="bootstrap">
+                            <div class="card-body">
+                                <h2 class="card-title">Variety Buttons</h2>
+                                <p class="card-text">With support for multiple sizes, states, and more, use Bootstrap's custom button styles for actions in forms, dialogues, and more. Bootstrap comes with a number of predefined button types, each with its own semantic function
+                                    and a few extras for added power.</p>
+                                <div class="col-md-6">
+                                    <a class="btn btn-outline-secondary mb-5" href="#" role="button">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/color-schemes.JPG" class="card-img-color schemes" id="color-schemes" alt="color schemes in bootstrap">
+                            <div class="card-body">
+                                <h2 class="card-title">The Best Color Schemes</h2>
+                                <p class="card-text text-justify">Thanks to the combination of theming classes and background-color utilities, customising the navbar has never been easier. Choose between.navbar-light for light background colours and.navbar-dark for dark background colours.
+                                    Then use the.bg-* utilities to make it your own.</p>
+                                <div class="col-md-6">
+                                    <a class="btn btn-outline-secondary mb-5" href="#" role="button">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/dropdowns.JPG" class="card-img" id="dropdowns" alt="dropdowns in bootstrap">
+                            <div class="card-body">
+                                <h2 class="card-title">Great dropdowns</h2>
+                                <p class="card-text">Bootstrap’s dropdowns are designed to a variety of situations and structures. Button dropdowns work with buttons of all sizes, including default and split dropdown buttons. The menu of dropdowns allows the user to choose
+                                    different size, color, and different directions.</p>
+                                <div class="col-md-6">
+                                    <a class="btn btn-outline-secondary mb-5" href="#" role="button">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+        </script>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bd-footer p-3 p-md-5 mt-5 bg-dark text-center text-sm-start">
+        <div class="container">
+            <ul class="bd-footer-links ps-0 mb-3">
+                <li class="d-inline-block ms-3"><a href="https://github.com/twbs" class="link-light"><i class="bi bi-github" data-toggle="tooltip" data-placement="top" title="github"></i></a></li>
+                <li class="d-inline-block ms-3"><a href="https://twitter.com/getbootstrap" class="link-light"><i class="bi bi-twitter" data-toggle="tooltip" data-placement="top" title="twitter"></i></a></li>
+                <li class="d-inline-block ms-3"><a href="https://github.com/twbs" class="link-light"><i class="bi bi-slack" data-toggle="tooltip" data-placement="top" title="slack"></i></a></li>
+            </ul>
+
+            <!-- Section: Form -->
+            <section>
+                <form>
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-outline-light mb-4">
+                                    Sign up for our newsletter
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" form="form5Example2">Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                        Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Links -->
+            <section>
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Github</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="https://github.com/twbs" class="link-light">Github</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Twitter</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="https://twitter.com/getbootstrap" class="link-light">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Examples</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="/docs/5.0/examples/" class="link-light">Examples</a></li>
+                        </ul>
+                    </div>
+
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">About</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="/docs/5.0/about/overview/" class="link-light">About</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
