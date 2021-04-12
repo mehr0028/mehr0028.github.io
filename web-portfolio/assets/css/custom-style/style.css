@@ -1,0 +1,19 @@
+button {
+    border: none !important;
+}
+
+#search {
+    display: none;
+    width: 50px;
+    animation-name: showbtn;
+    animation-duration: 1s;
+}
+
+@keyframes showbtn {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
