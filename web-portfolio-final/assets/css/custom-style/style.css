@@ -94,6 +94,10 @@ body {
     color: #f8cd0a !important;
 }
 
+.mx-100px {
+    height: 150px !important;
+}
+
 @keyframes showbtn {
     from {
         width: 0px;
