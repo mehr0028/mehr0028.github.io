@@ -91,11 +91,16 @@ body {
 }
 
 .nav-link:hover {
-    color: #f8cd0a !important;
+    color: #eba715 !important;
+    font-weight: bold;
 }
 
 .mx-100px {
     height: 150px !important;
+}
+
+.fn-13 {
+    font-size: 1.3rem !important;
 }
 
 @keyframes showbtn {
