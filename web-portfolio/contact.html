@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrapp css-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link href="assets/css/custom-style/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/96e307a3ff.js" crossorigin="anonymous"></script>
+
+
+    <title>Contact.Web-Portfolio </title>
+    <!-- <style>
+        .header {
+            height: 700px;
+            width: 100%;
+            background-image: "images/solar.jpg ";
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .header h1 {
+            font-size: 40px;
+            font-weight: 700;
+            color: black;
+            margin-top: 235px;
+        }
+    </style> -->
+</head>
+
+<body>
+
+    <!-- The nav class is used to create the navigation component to provide a strong foundation of navigation components.-->
+    <nav class="cs-nav navbar navbar-expand-lg navbar-light bg-light">
+        <div class="">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> ArtiArtsymm
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+        <div class="container-fluid">
+            <a href="http://www.mozhdehmehrafarin.com" class="container text-center">mozhdehmehrafarin.com</a>
+        </div>
+        <div class="d-flex">
+            <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="search">
+            <button class="btn btn-outline-dark" onclick="showbtn()"><i class="fa fa-search"></i></button>
+            <button class="btn btn-outline-dark"><i class="fa fa-user"></i></button>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="banner">
+            <img src="images/solar.jpg" alt="img">
+            <h2 class="heading text-white txt-shadow">ArtiArtsymm <br><em>Online Gallery</em></h2>
+            <a class="set-center btn btn-outline-light text-black-100 js-scroll-trigger" href="about.html">Find Out More</a>
+        </div>
+    </div>
+
+
+    <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light pos-sticky">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--
+    <div class="container">
+        <div class="row">
+            <div class="card h-100">
+                <img class="img w-100" src="images/rug.jpg" alt="iranian rug painting">
+                <div class="container text-lg-start">
+                    <div class="card-body">
+                        <h6 class="card-title">Acrylic & Mixed media, 180cm*120cm By Mozhdeh mehrafarin</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card h-100">
+                <img class="img w-80" src="images/historical.jpg" alt="iranian historical painting">
+                <div class="container text-lg-start">
+                    <div class="card-body">
+                        <h6 class="card-title">Acrylic & Mixed media, 180cm*120cm By Mozhdeh mehrafarin</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- cards -->
+    <!-- Cards are created with as little markup and styling as possible while still allowing for a great deal of control and customization. -->
+    <!--
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/shahnameh.jpg" class="card-img-shahnameh" id="shahnameh" alt="shahnameh painting">
+                    <div class=" card-body ">
+                        <h6 class="card-title ">Acrylic & Mixed media<br>30cm*30cm<br>By Tina Kazzazy</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card h-100  offset-20">
+                    <img src="images/fly.jpg " class="card-img-fly" id="fly" alt="fly painting">
+                    <div class="card-body ">
+                        <h6 class="card-title">Acrylic & Mixed media<br>10cm*20cm<br>By Tina Kazzazy</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <div class="card h-100 ">
+                    <img src="images/statue.jpg " class="card-img-statue" id="statue" alt="local games ">
+                    <div class="card-body ">
+                        <h6 class="card-title">Wood & Media statue<br>100cm*100cm*150cm<br>By Tina Kazzazy</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js " integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf " crossorigin="anonymous ">
+    </script>
+    </section>-->
+
+
+<section class="container mt-5">
+   <!--Contact heading-->
+   <div class="row">
+      <!--Grid column-->
+      <div class="col-sm-12 mb-12 col-md-12">
+         <!--Form with header-->
+         <div class="card border-warning rounded-0">
+            <div class="card-header p-0">
+               <div class="bg-orange text-white text-center py-2">
+                  <h3><i class="fa fa-envelope"></i> Write to us:</h3>
+                  <p class="m-0">We’ll write rarely, but only the best content.</p>
+               </div>
+            </div>
+            <div class="card-body p-3">
+               
+                  <div class="form-group">
+                  <label> Your name </label>
+                  <div class="input-group">
+                     <input value="" type="text" name="data[name]" class="form-control" id="inlineFormInputGroupUsername" placeholder="Your name">
+                  </div>
+				</div>
+                  <div class="form-group">
+                     <label>Your email</label>
+                     <div class="input-group mb-2 mb-sm-0">
+                        <input type="email" value="" name="data[email]" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email">
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label>Subject</label>
+                     <div class="input-group mb-2 mb-sm-0">
+                        <input type="text" name="data[subject]" class="form-control" id="inlineFormInputGroupUsername" placeholder="Subject">
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <label>Message</label>
+                     <div class="input-group mb-2 mb-sm-0">
+                        <input type="text" class="form-control" name="mesg">
+                     </div>
+                  </div>
+                  <div class="text-center form-group">
+                     <input type="submit" name="submit" value="submit" class="btn bg-orange text-white btn-block rounded-0 py-2">
+                  </div>
+             
+			     </div>
+				  
+            </div>
+         </div>
+      <!--Grid column-->
+	  
+      <!--Grid column-->
+      <div class="col-sm-12 col-md-12" style="margin-top: 20px;">
+         <!--Google map-->
+         <!--<div class="mb-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117223.77996815204!2d85.3213263!3d23.3432048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11b5a9b0042eef56!2sourcita.com!5e0!3m2!1sen!2sin!4v1589706571407!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         </div>-->
+         <!--Buttons-->
+         <div class="row text-center">
+            <div class="col-md-4">
+               <a class="bg-orange px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-map-marker"></i></a>
+               <p> Your Address ….. </p>
+            </div>
+            <div class="col-md-4">
+               <a class="bg-orange px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-phone"></i></a>
+               <p>+91- 90000000</p>
+            </div>
+            <div class="col-md-4">
+               <a class="bg-orange px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-envelope"></i></a>
+               <p> your@gmail.com</p>
+            </div>
+         </div>
+      </div>
+      <!--Grid column-->
+	    </div>
+</section>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="bd-footer p-3 p-md-5 mt-5 bg-dark text-center text-sm-start">
+        <div class="container">
+            <ul class="bd-footer-links ps-0 mb-3">
+                <li class="d-inline-block ms-3"><a href="https://ir.linkedin.com/in/mozhdeh-mehrafarin-2ab5b255" class="link-light"><i class="bi bi-linkedin" data-toggle="tooltip" data-placement="top" title="linkedin"></i></a></li>
+                <li class="d-inline-block ms-3"><a href="https://www.facebook.com/mojde.mehrafarin87" class="link-light"><i class="bi bi-facebook" data-toggle="tooltip" data-placement="top" title="facebook"></i></a></li>
+                <li class="d-inline-block ms-3"><a href="https://www.instagram.com/mozhdeh_mehr/" class="link-light"><i class="bi bi-instagram" data-toggle="tooltip" data-placement="top" title="instagram"></i></a></li>
+            </ul>
+
+            <!-- Section: Form -->
+            <section>
+                <form>
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-outline-light mb-4">
+                                    Sign up for our newsletter:
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" form="form5Example2">Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-danger mb-4">
+                                        Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+        </div>
+
+    </footer>
+
+<!-- start java script-->
+
+    <script src="assets/js/animation.js"></script>
+
+    <!-- end java script-->
+</body>
+
+</html>
