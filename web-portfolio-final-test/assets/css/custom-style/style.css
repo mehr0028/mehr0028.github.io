@@ -105,48 +105,50 @@ body {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 1000px){
-    .about-text-res{
+@media only screen and (max-width: 1000px) {
+    .about-text-res {
         font-size: 30px !important;
     }
 }
-@media only screen and (max-width: 900px){
+
+@media only screen and (max-width: 900px) {
     .heading {
         font-size: 40px;
     }
-    .btn-in-banner{
+    .btn-in-banner {
         font-size: 20px;
     }
 }
-@media only screen and (max-width: 790px){
-    .about-text-res{
+
+@media only screen and (max-width: 790px) {
+    .about-text-res {
         font-size: 20px !important;
     }
 }
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 600px) {
     .heading {
         font-size: 25px;
     }
-    .btn-in-banner{
+    .btn-in-banner {
         font-size: 10px;
     }
 }
-@media only screen and (max-width: 400px){
-    .about-text-res{
+
+@media only screen and (max-width: 400px) {
+    .about-text-res {
         font-size: 17px !important;
     }
-    .bottom-list-about{
+    .bottom-list-about {
         flex-direction: column !important;
     }
-    .bottom-list-about li{
+    .bottom-list-about li {
         justify-content: center !important;
     }
 }
-
-
 
 @keyframes showbtn {
     from {
